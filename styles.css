@@ -32,7 +32,7 @@
     transform: translateZ(-40px) scale(5);
 }
 .foreground{
-    transform: translateZ(-20px),scale(3);
+    transform: translateZ(-100px),scale(3);
 }
 .background ,.foreground
 {
@@ -44,7 +44,7 @@
 }
 h1{
     position:absolute;
-    /* font-family: myfirst; */
+    font-family: myfirst;
     /* Values will be available */
     font-size: 10rem;
     top: 5rem;
@@ -106,15 +106,22 @@ section{
     position: relative;
     width: 100%;
     background-attachment: fixed;
-    height: 500px;
+    height: 501px;
     background-size: cover;
     background-position: center;
 }
-/* 
+
 @font-face {
     font-family: myfirst;
 
-    src: url(TiltNeon-Regular.ttf);
-} */
+    src: url(Poppins-Black.ttf);
+}
 /*  using this u can download any font from 
 google font and use it like i have used in h1 */
+@media screen and (min-width: 780px)
+{
+    .full-width-img {
+    margin: auto;
+    width: 90%;
+    }
+}
